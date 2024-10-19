@@ -6,91 +6,64 @@
     <title>Joe Davis Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </head>
- 
-<body>
-    
-    
-    <div class="jumbotron mb-4 pb-4 d-flex" style="background-color:black; color:white;">
-      <div class="container text-center">
-        <h1>Joe Davis Portfolio</h1>      
-        <br>
-      </div>
+
+<body >
+
+
+<div class="p-5 bg-dark text-white text-center">
+    <h1>Joe Davis Portfolio</h1>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><i class="fa fa-home" style="font-size:36px"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Software Development.html">Software Development Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Data Analysis.html">Data Analyst Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Assets/Joe_Davis_CV.pdf">CV</a>
+                </li>
+            </ul>
+        </div>
     </div>
+</nav>
 
+<div class="container mt-5" style="min-height: 100vh;">
 
-    <div class="container bg-3 ">
+    <div class="container-fluid bg-3 text-center">
         <div class="row">
-            <h3 class="border-bottom">About Me</h3>
-            
-            <div class="col-sm-12 py-4 d-flex justify-content-center align-items-center">
-                <div class="row">
-                    <p>I am an aspiring software engineer looking to gain professional experience and develop my programming skills. I am a keen developer with interest in full-stack development driven by my desire to learn new technologies 
-                        and refine my understanding of technologies i have learned previously. This website should demonstrate some of the skills I've learned so far.</p>
-                    <p>I graduated from City, University of London with a First Class Bachelors Degree in Science with Honours in Computer Science</p>
-                    <h4 class="border-bottom p-1">Contact Me</h4>
-                    <div class="row d-flex justify-content-center align-items-center" style="display: flex; flex-wrap: wrap;" >
-                      <div class="col-sm-6">
-                        <p>Please feel free to reach out to me if you have any queries or would like to discuss a position. You can reach me through these contact details: <br><b>Mobile:</b> 07758245829 <br><b>Email:</b> peterdavis.joe@gmail.com</p>
-                      </div>
-                      <div class="col-sm-6" >
-                        <a href="Assets/Joe_Davis_CV.pdf"><button class="btn btn-info btn-lg">View my CV</button></a>
-                      </div>
-                    </div>
-                    
-                </div>
-                <img src="Assets/City.png" class="img-responsive"  alt="Image">
+            <div class="col-sm-6">
+                <h2 class="border-bottom">AI-Modelling: Predicting Property Value</h4>
+                <img src="Assets/Spyder.png" class="img-responsive mx-auto d-block rounded" style="width: 250px;height:250px;object-fit: cover;" alt="Image">
+                <p style="font-size:25px">Project Tech: Jupyter, Spyder, Anaconda, Python (Numpy,Pandas,scikit-learn)</p>
+                <p style="font-size:25px">This project was an exploration of AI Models in the purpose of finding out if I could produce models with minimal margins of error, and compare the use of classification to regression where appropriate. </p>
+            </div>
+            <div class="col-sm-6">
+                <h2 class="border-bottom">In-Development</h4>
+                <p style="font-size:25px">Currently I have some projects on Tableau, PowerBI and SQL. I will update this portfolio when they are ready to be uploaded. Click here to see my <a href="https://public.tableau.com/app/profile/joe.davis3276/vizzes">Tableau Profile</a></p>
             </div>
 
         </div>
-
     </div>
-
-      
-    <div class="container-fluid bg-3 text-center">    
-      <h3>Projects I've worked on:</h3><br>
-      <div class="row">
-        <div class="col-sm-4">
-          <h4 class="border-bottom">Cloud-Based Web Application: Meeting Manager</h4>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-4"> 
-          <h4 class="border-bottom">AI-Modelling: Predicting Property Value</h4>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-4"> 
-          <h4 class="border-bottom">Full Stack Java Team Project: Workplace Systems</h4>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        
-      </div>
-    </div><br>
-    
-    <div class="container-fluid bg-3 text-center">    
-      <div class="row">
-        <div class="col-sm-4">
-          <h4 class="border-bottom">C++ Terminal Game: Robot Wars</h4>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-4"> 
-          <h4 class="border-bottom">First Java Project: Java Platforming Game</h4>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-4"> 
-          <h4 class="border-bottom">Python Project: A-Level Studies tool</h4>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        
-      </div>
-    </div><br><br>
-    
-    <footer class="container-fluid text-center">
-      <p>Thank you for taking your time to view my work</p>
-    </footer>
-
+</div>
+<div class="mt-auto p-4 bg-dark text-white text-center">
+    <p>Thank you for your time</p>
+</div>
 
 
 </body>
 </html>
+
+
